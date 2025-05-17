@@ -12,25 +12,14 @@ const Dashboard = ({ userDetails }) => {
     // Map domain codes to domain names
     const domainMap = {
       "SWPAWD": "Web Development",
-      "SWPAAD": "Mobile App Development",
-      "SWPAAI": "Artificial Intelligence (AI)",
-      "SWPAML": "Machine Learning (ML)",
+      "SWPAFE": "Frontend Developer",
+      "SWPABE": "Backend Developer",
+      "SWPAAM": "AI / ML",
       "SWPADS": "Data Science",
       "SWPACS": "Cybersecurity",
-      "SWPACC": "Cloud Computing & DevOps",
-      "SWPASD": "Software Development",
       "SWPAUI": "UI/UX Design",
-      "SWPADM": "Digital Marketing",
-      "SWPABT": "Blockchain Technology",
-      "SWPAIT": "Internet of Things (IoT)",
-      "SWPAES": "Embedded Systems",
-      "SWPAGD": "Game Development",
-      "SWPAAR": "AR/VR Development",
-      "SWPACN": "Computer Networking & System Administration",
-      "SWPAAU": "Automation & Robotics",
       "SWPADB": "Database Management",
-      "SWPAST": "Software Testing & Quality Assurance",
-      "SWPABD": "Big Data Analytics"
+      "SWPARJ":"React JS"
     };
 
     // Return the corresponding domain name or "Unknown" if not found
