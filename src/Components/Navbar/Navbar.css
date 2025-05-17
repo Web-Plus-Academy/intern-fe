@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #1e1e1e;
+  /* border-radius: 10px; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid #88ff00;
+  height: 10vh;
+}
+
+.navbar h1 {
+  font-size: 22px;
+  color: #ff9800;
+  font-weight: 600;
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.change-password-button,
+.logout-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #333333;
+  border: 1px solid #ff9800;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.change-password-button:hover {
+  background-color: #ff9800;
+  color: #1e1e1e;
+}
+
+.logout-button {
+  background-color: #ff3b3b;
+  border: 1px solid #ff3b3b;
+}
+
+.logout-button:hover {
+  background-color: #e53935;
+}
+
+/* button:active {
+  transform: scale(0.98);
+} */
